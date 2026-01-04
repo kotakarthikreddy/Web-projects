@@ -1,43 +1,60 @@
-# Online-Food-Ordering-Web-App
-Online Food Ordering System Website using basic PHP, SQL, HTML & CSS. You can use any one of XAMPP, WAMP or LAMP server to run the Web App on your local machine. It has a food ordering module for a customer. It also provides menu, orders and user management module for admin.
+# 🍔 Online Food Ordering Website
 
-Admin Login & Password (You can change this in phpmyadmin):<br/>
-Login: admin <br>
-Password: admin<br>
+## 📝 Project Overview
+This is a comprehensive frontend template for an **Online Food Ordering** website. It provides a polished, responsive user interface for displaying menus, food categories, restaurant locations, and managing user accounts. It is designed to be easily deployed to static hosting services like GitHub Pages or Firebase.
 
-# Screenshots
-<img src="https://github.com/kaushikjadhav01/Online-Food-Ordering-Web-App/blob/master/screenshots/99-banner.png">
-Find how the project looks in <b>screenshots folder</b> Or <a href="https://github.com/kaushikjadhav01/Online-Food-Ordering-Web-App/tree/master/screenshots">click here</a>
+## ✨ Key Features
+*   **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
+*   **Rich UI Components**: Includes carousels, food grids, and styled forms.
+*   **Multi-Page Navigation**:
+    *   **Home**: Feature highlights and promotions (`index.html`, `index2.html`).
+    *   **Menu**: Detailed food listings (`menu.html`, `food.html`).
+    *   **Gallery**: Visual showcase of dishes (`gallery.html`).
+    *   **Blog**: Food articles and news (`blog.html`).
+    *   **Locations**: Restaurant locator (`location.html`).
+*   **User Account**: Profiles and settings pages (`account/`).
 
-# Technologies Used
-<ul>
-<a href="https://www.mysql.com/"><li>MySQL</a></li>
-<a href="https://www.php.net/"><li>PHP</a></li>
-<a href="https://www.w3.org/Style/CSS/Overview.en.html"><li>CSS</a></li>
-<a href="https://www.w3.org/TR/html52/"><li>HTML</a></li>
-<a href="https://www.javascript.com/"><li>Javascript</a></li>
-</ul>
+## 🖼️ Screenshots
+![Home Page](assets/home.png)
 
-# Tools Used
-<ul>
-  <a href="https://www.apachefriends.org/"><li>XAMPP</a></li>
-</ul>
+## 📂 Folder Structure
+```text
+.
+├── 📂 account/         # User account related pages
+├── 📂 css/             # Stylesheets
+├── 📂 fonts/           # Web fonts
+├── 📂 images/          # Website assets
+├── 📂 js/              # JavaScript files
+├── 📂 public/          # Public assets
+├── 📂 screenshots/     # Additional project screenshots
+├── 📄 index.html       # Main landing page
+├── 📄 menu.html        # Menu page
+├── 📄 food.html        # Food category page
+├── 📄 order.html       # Order placement page
+├── 📄 package.json     # Project dependencies (yarn/deployment)
+└── 📄 README.md        # Project documentation
+```
 
-# How to Install and Use
-<ol>
-<li>Download and install XAMPP/WAMP/LAMP server and download the files of this project</li>
-<li>Copy the folder of this project in your xampp/htdocs/www folder</li>
-<li>Start XAMMP. Start Apache and SQL server. Go to phpmyadmin and create a new database named 'food'</li>
-<li>Go to the food database created and click on 'Import' option in the top menu</li>
-<li>Upload the food.sql file and import it</li>
-<li>Open your web browser and check if you got the website running on your localhost (http://localhost:8080/www/)</li>
-</ol>
+## 🛠️ Prerequisites & Setup
+This project is primarily a **Static Website** (HTML/CSS/JS).
 
-# Authors
-## Kaushik Jadhav
-<ul>
-<li>Github:https://github.com/kaushikjadhav01</li>
-<li>Medium:https://medium.com/@kaushikjadhav01</li>
-<li>LinkedIn:https://www.linkedin.com/in/kaushikjadhav01/</li>
-<li>Portfolio:http://kaushikjadhav01.github.io/</li>
-</ul>
+### Running Locally
+1.  **Simply Open Files**: You can double-click `index.html` to view the website in your browser.
+2.  **Live Server (Recommended)**: For the best experience (loading fonts/animations correctly), use a local server like VS Code's "Live Server" extension.
+
+### Dependencies
+If you wish to use the included build/deployment scripts:
+*   **Node.js & Yarn**
+*   Install dependencies:
+    ```bash
+    yarn install
+    ```
+
+## 🚀 Deployment
+The project includes configuration for deployment:
+*   **GitHub Pages**: `yarn run deploy` (requires `gh-pages` package).
+*   **Firebase**: Contains `firebase.json` for Firebase Hosting.
+
+## 💻 Tech Stack
+*   **Frontend**: HTML5, CSS3, JavaScript
+*   **Package Manager**: Yarn
