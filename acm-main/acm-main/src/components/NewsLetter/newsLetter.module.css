@@ -1,0 +1,64 @@
+.container {
+  /* background-color: rgb(35, 9, 37); */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  background: var(--bg-box);
+  color: #eee;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90vw;
+  margin: auto;
+  margin-top: 80px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 10px;
+}
+
+.container h1 {
+  font-size: 40px;
+  /* margin-bottom: 40px; */
+  /* color: #ffac30; */
+  background: var(--gradient-text);
+  background-clip: text;
+  /* font-weight: 700; */
+  -webkit-text-fill-color: transparent;
+}
+
+/* .container h1 p {
+  margin-bottom: 30px;
+} */
+
+.card {
+  background-color: #fff;
+  position: absolute;
+  bottom: -40%;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+.card a {
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .card {
+    max-width: 300px;
+  }
+}
+
+/* @media (max-width: 300px) {
+  .card {
+    max-width: 200px;
+  }
+} */
+
+.link {
+  white-space: pre-wrap; /* CSS3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}

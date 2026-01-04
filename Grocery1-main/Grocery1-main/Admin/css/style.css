@@ -1,0 +1,227 @@
+*,html,body{
+	margin: 0;
+	padding: 0;
+}
+.left-body{
+	height: 100%;
+	/*width: 20%;*/
+	/*position: fixed;*/
+	/*min-width: 200px;*/
+  background: #1f2124;
+	padding: 0;
+	margin-bottom: 0;
+  min-width: 150px;
+}
+.lb-header{
+	/*margin: 25px 30px;*/
+	text-align: center;  
+	padding: 45px 10px;
+	background-color: #000000;
+	color: white;
+	border-buttom:0px solid transparent;
+}
+.lb-header h1 {
+  color: white;
+  display: inline-block;
+  font-size: 1.8em;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  margin: 0 5px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.square {
+  width: 30px;
+  height: 30px;
+  border: 4px solid #13895F;
+  display: inline-block;
+  vertical-align: middle;
+}
+@media screen and (max-width: 767px){
+  .projectmakers-search-form {
+    margin: 0px 20px!important;
+    margin-top: -40px!important;
+  }
+}
+.projectmakers-search-form{
+  font-size: 1em;
+  margin: 35px 20px 21px;
+}
+.projectmakers-search-form .input-group {
+  position: relative;
+  width: 100%;
+}
+.projectmakers-search-form .input-group .fa-search {
+  height: 32px;
+  width: 32px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.projectmakers-search-form .input-group .form-control {
+  background-color: #18191b;
+  border: none;
+  border-radius: 10px;
+  color: #DDD;
+  padding-left: 30px;
+}
+@media screen and (max-width: 767px) { 
+  .mobile-menu-icon {
+    cursor: pointer;
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    z-index: 1000;
+  }
+}
+@media screen and (max-width: 767px){
+  .mobile-menu-icon .fa {
+    color: #fff;
+    background-color: rgba(19,137,95,0.4);
+    font-size: 1.5em;
+    width: 40px;
+    height: 40px;
+    padding-top: 9px;
+    padding-left: 11px;
+  }
+}
+.lft-menu{
+	height: auto;
+  padding-bottom: 10px;
+  background: #1f2124;
+}
+@media screen and (max-width: 767px){
+  .lft-menu {
+    display: none;
+    /*position: fixed;
+    top: 10px;
+    right: 50px;
+    height: 300px;
+    overflow: auto;
+    width: 200px;
+    z-index: 999;*/
+  }
+}
+.sidebar-menu{
+	font-size: 14px;
+	color: white;
+	white-space: nowrap;
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.sidebar-menu>li {
+  /*position: relative;
+  margin: 0;
+  padding: 0px;
+  display: list-item;
+  text-align: -webkit-match-parent;*/
+
+  font-size: 1.1em;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.lft-menu a {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #e9e9ea;
+  display: block;
+  padding: 27px;
+  transition: all 0.3s ease;
+}
+.lft-menu a.active, .lft-menu a:hover {
+  background: #18191b;
+  border-left: 8px solid #13895F;
+}
+.projectmakers-left-nav a {
+  color: #e9e9ea;
+  display: block;
+  padding: 30px;
+  transition: all 0.3s ease;
+}
+
+
+//toggler at bootstraptoggle@github
+.checkbox label .toggle,.checkbox-inline .toggle{margin-left:-20px;margin-right:5px}
+.toggle{position:relative;overflow:hidden}
+.toggle input[type=checkbox]{display:none}
+.toggle-group{position:absolute;width:200%;top:0;bottom:0;left:0;transition:left .35s;-webkit-transition:left .35s;-moz-user-select:none;-webkit-user-select:none}
+.toggle.off .toggle-group{left:-100%}
+.toggle-on{position:absolute;top:0;bottom:0;left:0;right:50%;margin:0;border:0;border-radius:0}
+.toggle-off{position:absolute;top:0;bottom:0;left:50%;right:0;margin:0;border:0;border-radius:0}
+.toggle-handle{position:relative;margin:0 auto;padding-top:0;padding-bottom:0;height:100%;width:0;border-width:0 1px}
+.toggle.btn{min-width:59px;min-height:34px}
+.toggle-on.btn{padding-right:24px}
+.toggle-off.btn{padding-left:24px}
+.toggle.btn-lg{min-width:79px;min-height:45px}
+.toggle-on.btn-lg{padding-right:31px}
+.toggle-off.btn-lg{padding-left:31px}
+.toggle-handle.btn-lg{width:40px}
+.toggle.btn-sm{min-width:50px;min-height:30px}
+.toggle-on.btn-sm{padding-right:20px}
+.toggle-off.btn-sm{padding-left:20px}
+.toggle.btn-xs{min-width:35px;min-height:22px}
+.toggle-on.btn-xs{padding-right:12px}
+.toggle-off.btn-xs{padding-left:12px}
+//==============//====================//
+
+
+
+
+.inputarea-color {
+  border: 1px solid gray;
+  box-shadow: inset 0 1px 1px #ccff66, 0 0 8px #ccff66;
+}
+
+
+
+.imgupd{
+  margin-top: -140px;
+  padding: 10px;
+}
+
+
+.cpy-ri8{
+  border-top: 1px solid #333;
+  font-size: 14px;
+  color: #333;
+  position: absolute;
+  margin: 0;
+  width:100%;
+  text-align: center;
+  background-color: black;
+  padding: 5px;
+}
+
+
+
+.pass_show{
+  position: relative
+} 
+.pass_show .ptxt { 
+  position: absolute; 
+  top: 50%; 
+  right: 10px; 
+  z-index: 1; 
+  color: darkgreen; 
+  margin-top: -10px; 
+  cursor: pointer; 
+  transition: .3s ease all; 
+} 
+.pass_show .ptxt:hover{color: #13895F;} 

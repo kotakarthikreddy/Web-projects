@@ -1,0 +1,162 @@
+.wrapper {
+  /* min-height: 100vh; */
+  /* padding-bottom: 20px; */
+  position: relative;
+}
+
+.container {
+  width: 80vw;
+  margin: 10px auto 80px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* min-height: 100vh; */
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.background {
+  /* background-color: #ffac30; */
+  width: 100%;
+  height: 100px;
+  background: var(--bg-box);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background .error {
+  color: red;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* position: absolute;
+  top: 50%;
+  bottom: 0; */
+  /* transform: translateY(-25%); */
+  /* height: 100%; */
+}
+
+.textFieldsContainer {
+  background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+  min-height: 70vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 40px 80px;
+  /* border: 1px solid #ffac30; */
+}
+
+.infoContainer {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 80px;
+  /* background: #ffac30; */
+  background: var(--bg-box);
+  color: #ccc;
+}
+
+.content {
+  display: flex;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.icons {
+  max-width: 300px;
+  padding: 20px 20px;
+  border-radius: 5px;
+  display: flex;
+  /* background-color: rgb(35, 9, 37); */
+  background-color: #ccc;
+  justify-content: space-around;
+}
+
+.icons a i {
+  font-size: 25px;
+}
+
+.button {
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 3px;
+  border: none;
+  /* background-color: #ffac30; */
+  transition: transform 0.5s ease-in-out;
+  font-family: inherit;
+  background: var(--color-subtext);
+  color: var(--color-footer);
+}
+
+.button:hover {
+  transform: scale(0.9);
+}
+
+@media (max-width: 1200px) {
+  /* .contactContainer {
+    transform: translate(0, -20px);
+    font-size: 12px;
+  } */
+}
+
+@media (max-width: 500px) {
+  .button {
+    padding: 5px;
+  }
+
+  .infoContainer {
+    padding: 0 10px;
+  }
+
+  .textFieldsContainer {
+    padding: 0 10px;
+  }
+}
+
+.titleHeading {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+@media (max-width: 500px) {
+  .titleHeading {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 300px) {
+  .titleHeading {
+    font-size: 30px;
+  }
+}
+
+.success {
+  color: green;
+}
+
+.imageLogo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.contentImag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: black; */
+}

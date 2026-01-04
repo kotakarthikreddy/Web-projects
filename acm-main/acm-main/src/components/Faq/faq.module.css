@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto 80px auto;
+  padding: 80px 30px;
+  /* background-color: rgb(35, 9, 37); */
+  /* background-color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); */
+  /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); */
+  background: var(--bg-box);
+  border-radius: 10px;
+  background: linear-gradient(to right, #ae67fa, #f49867);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  /* position: absolute; */
+}
+
+.wrapper {
+  width: 50vw;
+  margin: auto;
+}

@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Roboto, sans-serif";
+}
+
+:root {
+  --gradient-background: -moz-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 25%
+  );
+  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+
+  --color-bg: #040c18;
+  --color-footer: #031b34;
+  --color-blog: #042c54;
+  --color-text: #81afdd;
+  --color-subtext: #ff8a71;
+}
+
+button {
+  font-family: "inheirt";
+}
+
+.tag {
+  color: rgb(141, 141, 141);
+}
+
+body {
+  font-family: "Roboto";
+  /* background: #23204b; */
+  background: var(--gradient-background);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 25%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 25%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 25%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 25%
+  );
+  background-color: #fff;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px 0 10px 0;
+  padding: 10px 0 40px 0;
+  /* color: #333; */
+  border-radius: 5px;
+  /* color: #b30f27; */
+  /* color: #ffac30; */
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.underline {
+  width: 90px;
+  height: 5px;
+  /* background-color: #ffac30; */
+  background: var(--color-subtext);
+}
+
+/* https://stackoverflow.com/questions/24193272/overflow-xhidden-on-mobile-device-not-working */
+
+.profileContainer {
+  background: linear-gradient(to right, #ccc, white);
+}
+
+.active {
+  background-color: black;
+}
+
+.upcomingheadingTitle {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+@media (max-width: 500px) {
+  .upcomingheadingTitle {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 300px) {
+  .upcomingheadingTitle {
+    font-size: 20px;
+  }
+}

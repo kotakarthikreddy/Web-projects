@@ -1,0 +1,79 @@
+.w {
+  /* background: rgb(35, 9, 37); */
+  padding: 40px 0;
+}
+
+.carouselWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  /* min-height: 80vh; */
+  position: relative;
+  padding: 20px;
+}
+
+.carContainer {
+  width: 60vw;
+}
+
+.carousel {
+  width: 60vw;
+}
+
+.imageContainer {
+  width: 60vw;
+  display: flex;
+  overflow: hidden;
+}
+
+.indiContainer {
+  transition: transform 0.3s linear;
+  width: 60vw;
+  height: 400px;
+}
+
+.image {
+  width: 60vw;
+  height: 100%;
+}
+
+.controls {
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  display: flex;
+  /* justify-content: flex-end;
+  align-items: center; */
+  padding: 0 120px;
+}
+
+.icons {
+  /* background: #ffac30; */
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffac30;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  margin: 0 5px;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 767px) {
+  .controls {
+    padding: 0 10px;
+  }
+  .indiContainer {
+    height: 200px;
+  }
+  .image {
+    height: 200px;
+  }
+}
